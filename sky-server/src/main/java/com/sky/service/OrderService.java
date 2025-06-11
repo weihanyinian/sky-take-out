@@ -73,5 +73,5 @@ public interface OrderService {
      *
      * @param ordersRejectionDTO
      */
-    void rejection(OrdersRejectionDTO ordersRejectionDTO);
+    void rejection(OrdersRejectionDTO ordersRejectionDTO) throws Exception;
 }
