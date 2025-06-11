@@ -33,7 +33,7 @@ import java.util.List;
  * 微信支付工具类
  */
 @Component
-public class WeChatPayUtil {
+public class  WeChatPayUtil {
 
     //微信支付下单接口地址
     public static final String JSAPI = "https://api.mch.weixin.qq.com/v3/pay/transactions/jsapi";
